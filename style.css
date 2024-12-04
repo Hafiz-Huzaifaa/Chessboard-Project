@@ -1,0 +1,55 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            /* Light gray background */
+        }
+
+        table {
+
+            border-collapse: collapse;
+            /* Remove space between cells */
+            border: 1px solid rgb(110, 133, 72);
+            background-color: rgb(252, 251, 240);
+        }
+
+        div {
+            
+            background-color: rgb(46, 13, 13);
+            outline: auto;
+            padding: 20px;
+           
+        }
+
+        td,
+        th {
+            width: 40px;
+            /* Set the width of each square */
+            height: 40px;
+            /* Set the height of each square */
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .black {
+            background-color: black;
+        }
+
+        .label, .top-label, .right-label {
+            color: black;
+        }
+
+        .top-label{
+            transform: rotate(180deg);
+        }
+
+        .right-label{
+            transform: rotate(180deg);
+        }
+    
